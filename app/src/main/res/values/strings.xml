@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tohtobin_PRO-41</string>
+    <string name="gallery">Галлерея фото</string>
+    <string name="counter">Фото</string>
+    <string name="next">Следующее фото</string>
+    <string name="info">Информация</string>
+    <string name="photo">Фото</string>
+    <string name="video">Видео</string>
+    <string name="app">Медиа приложение</string>
+</resources>
