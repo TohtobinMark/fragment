@@ -7,4 +7,6 @@
     <string name="photo">Фото</string>
     <string name="video">Видео</string>
     <string name="app">Медиа приложение</string>
+    <string name="player">Видеоплеер</string>
+    <string name="hello_blank_fragment">А</string>
 </resources>
