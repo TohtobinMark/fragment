@@ -1,10 +1,15 @@
 package com.example.tohtobin_pro_41
 
+import android.media.Image
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.ImageView
+import android.widget.TextView
+import org.w3c.dom.Text
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -28,17 +33,22 @@ class PhotoFragment : Fragment() {
             param2 = it.getString(ARG_PARAM2)
         }
     }
+    private lateinit var photoCounter: TextView
+    private lateinit var photoImage: ImageView
+    private lateinit var btnChangePhoto: Button
+    private lateinit var btnPhotoInfo: Button
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+
         val view = inflater.inflate(R.layout.fragment_photo, container, false)
         photoCounter = view.findViewById(R.id.photo_counter)
         photoImage = view.findViewById(R.id.photo_image)
-        btnChangePhoto = view.findViewById(R.id.btnChangePhoto)
-        btnPhotoInfo = view.findViewById(R.id.btnPhotoInfo)
+        btnChangePhoto = view.findViewById(R.id.btn_change_photo)
+        btnPhotoInfo = view.findViewById(R.id.btn_photo_info)
         return view
     }
 
